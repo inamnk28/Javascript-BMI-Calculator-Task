@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/mystyle.css">
+    <title>BMI CALCULATOR TASK</title>
+</head>
+<body>
+   <div class="container">
+    <div class="mycal">
+        <h1 class="heading">Body Mass Index(BMI)</h1>
+        <br>
+        <div class="components">
+            <h2>Height in CM:</h2>
+            <br>
+            <input type="number" id="myheight" placeholder="Your height in CM..">
+        </div>
+        <br>
+        <div class="components">
+            <h2>Weight in KG:</h2>
+            <br>
+            <input type="number" id="myweight" placeholder="Your weight in KG..">
+        </div>
+        <div class="components">
+            <br>
+            <button id="mybtn" onclick="calculation()">Calculate</button>
+        </div>
+        <div class="components">
+            <br>
+            <h2>Your Body Mass Index:</h2>
+            <br>
+            <input readonly type="number" id="output">
+        </div>
+        <div class="components">
+            <br>
+            <h2>Mass Condition:</h2>
+            <div id="state"></div>
+            <br>
+        </div>
+    </div>
+   </div> 
+   <script src="./script/my.js"></script>
+</body>
+</html>
